@@ -8,7 +8,7 @@
   stages {
     stage('Cloning Git') {
       steps {
-        git branch: 'main', url: 'https://github.com/krishnamaram2/testing.git'
+        git branch: 'main', url: 'https://github.com/cssp-user/flask-app.git'
       }
     }
     stage('Building image') {
